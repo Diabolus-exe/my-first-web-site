@@ -1,0 +1,118 @@
+*{
+    font-family: sans-serif;
+}
+
+.Button{
+    background-color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.Button a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.image-block{
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin: 0 0 0 50px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.metin{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.metin-kapsayici{
+    max-width: 10000p;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.baslik{
+    margin: 0 0 20px 0;
+    font-size: 40px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 20px 40px; 
+  border-bottom: 2px solid #ddd; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  position: sticky; 
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 20px; 
+  color: #7e2828;
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); 
+  font-family: 'Arial Black', sans-serif; 
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+
+.menu li.auth + li.register {
+  border-left: none;
+}
+
+
+.menu li.register a {
+  background: #000;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.menu li.auth {
+    border-left: 1px solid #999;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
